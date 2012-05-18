@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75FC18C156657270056E326 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75FC18B156657270056E326 /* UIKit.framework */; };
+		E75FC18E156657270056E326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75FC18D156657270056E326 /* Foundation.framework */; };
+		E75FC190156657270056E326 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75FC18F156657270056E326 /* CoreGraphics.framework */; };
+		E75FC196156657270056E326 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75FC194156657270056E326 /* InfoPlist.strings */; };
+		E75FC198156657270056E326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FC197156657270056E326 /* main.m */; };
+		E75FC19C156657270056E326 /* AgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FC19B156657270056E326 /* AgeAppDelegate.m */; };
+		E75FC19F156657270056E326 /* AgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FC19E156657270056E326 /* AgeViewController.m */; };
+		E75FC1A2156657270056E326 /* AgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75FC1A0156657270056E326 /* AgeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E75FC187156657270056E326 /* Age12cm0120.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Age12cm0120.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75FC18B156657270056E326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E75FC18D156657270056E326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E75FC18F156657270056E326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E75FC193156657270056E326 /* Age12cm0120-Info.plist */ = {isa = PBXFileReference; path = "Age12cm0120-Info.plist"; sourceTree = "<group>"; };
+		E75FC195156657270056E326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E75FC197156657270056E326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75FC199156657270056E326 /* Age12cm0120-Prefix.pch */ = {isa = PBXFileReference; path = "Age12cm0120-Prefix.pch"; sourceTree = "<group>"; };
+		E75FC19A156657270056E326 /* AgeAppDelegate.h */ = {isa = PBXFileReference; path = AgeAppDelegate.h; sourceTree = "<group>"; };
+		E75FC19B156657270056E326 /* AgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeAppDelegate.m; sourceTree = "<group>"; };
+		E75FC19D156657270056E326 /* AgeViewController.h */ = {isa = PBXFileReference; path = AgeViewController.h; sourceTree = "<group>"; };
+		E75FC19E156657270056E326 /* AgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeViewController.m; sourceTree = "<group>"; };
+		E75FC1A1156657270056E326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AgeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75FC184156657270056E326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75FC18C156657270056E326 /* UIKit.framework in Frameworks */,
+				E75FC18E156657270056E326 /* Foundation.framework in Frameworks */,
+				E75FC190156657270056E326 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75FC17C156657270056E326 = {
+			isa = PBXGroup;
+			children = (
+				E75FC191156657270056E326 /* Age12cm0120 */,
+				E75FC18A156657270056E326 /* Frameworks */,
+				E75FC188156657270056E326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75FC188156657270056E326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75FC187156657270056E326 /* Age12cm0120.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75FC18A156657270056E326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75FC18B156657270056E326 /* UIKit.framework */,
+				E75FC18D156657270056E326 /* Foundation.framework */,
+				E75FC18F156657270056E326 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75FC191156657270056E326 /* Age12cm0120 */ = {
+			isa = PBXGroup;
+			children = (
+				E75FC19A156657270056E326 /* AgeAppDelegate.h */,
+				E75FC19B156657270056E326 /* AgeAppDelegate.m */,
+				E75FC19D156657270056E326 /* AgeViewController.h */,
+				E75FC19E156657270056E326 /* AgeViewController.m */,
+				E75FC1A0156657270056E326 /* AgeViewController.xib */,
+				E75FC192156657270056E326 /* Supporting Files */,
+			);
+			path = Age12cm0120;
+			sourceTree = "<group>";
+		};
+		E75FC192156657270056E326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75FC193156657270056E326 /* Age12cm0120-Info.plist */,
+				E75FC194156657270056E326 /* InfoPlist.strings */,
+				E75FC197156657270056E326 /* main.m */,
+				E75FC199156657270056E326 /* Age12cm0120-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75FC186156657270056E326 /* Age12cm0120 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75FC1A5156657270056E326 /* Build configuration list for PBXNativeTarget "Age12cm0120" */;
+			buildPhases = (
+				E75FC183156657270056E326 /* Sources */,
+				E75FC184156657270056E326 /* Frameworks */,
+				E75FC185156657270056E326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Age12cm0120;
+			productName = Age12cm0120;
+			productReference = E75FC187156657270056E326 /* Age12cm0120.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75FC17E156657270056E326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Age;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E75FC181156657270056E326 /* Build configuration list for PBXProject "Age12cm0120" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E75FC17C156657270056E326;
+			productRefGroup = E75FC188156657270056E326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75FC186156657270056E326 /* Age12cm0120 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75FC185156657270056E326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75FC196156657270056E326 /* InfoPlist.strings in Resources */,
+				E75FC1A2156657270056E326 /* AgeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75FC183156657270056E326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75FC198156657270056E326 /* main.m in Sources */,
+				E75FC19C156657270056E326 /* AgeAppDelegate.m in Sources */,
+				E75FC19F156657270056E326 /* AgeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E75FC194156657270056E326 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75FC195156657270056E326 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E75FC1A0156657270056E326 /* AgeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75FC1A1156657270056E326 /* en */,
+			);
+			name = AgeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75FC1A3156657270056E326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E75FC1A4156657270056E326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75FC1A6156657270056E326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age12cm0120/Age12cm0120-Prefix.pch";
+				INFOPLIST_FILE = "Age12cm0120/Age12cm0120-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E75FC1A7156657270056E326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Age12cm0120/Age12cm0120-Prefix.pch";
+				INFOPLIST_FILE = "Age12cm0120/Age12cm0120-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75FC181156657270056E326 /* Build configuration list for PBXProject "Age12cm0120" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75FC1A3156657270056E326 /* Debug */,
+				E75FC1A4156657270056E326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75FC1A5156657270056E326 /* Build configuration list for PBXNativeTarget "Age12cm0120" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75FC1A6156657270056E326 /* Debug */,
+				E75FC1A7156657270056E326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75FC17E156657270056E326 /* Project object */;
+}
