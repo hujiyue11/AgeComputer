@@ -15,6 +15,8 @@
 		E75FC19C156657270056E326 /* AgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FC19B156657270056E326 /* AgeAppDelegate.m */; };
 		E75FC19F156657270056E326 /* AgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FC19E156657270056E326 /* AgeViewController.m */; };
 		E75FC1A2156657270056E326 /* AgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75FC1A0156657270056E326 /* AgeViewController.xib */; };
+		E75FC1CE15666C730056E326 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E75FC1CC15666C730056E326 /* Default.png */; };
+		E75FC1CF15666C730056E326 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E75FC1CD15666C730056E326 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		E75FC18B156657270056E326 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E75FC18D156657270056E326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E75FC18F156657270056E326 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E75FC193156657270056E326 /* Age12cm0120-Info.plist */ = {isa = PBXFileReference; path = "Age12cm0120-Info.plist"; sourceTree = "<group>"; };
+		E75FC193156657270056E326 /* Age12cm0120-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age12cm0120-Info.plist"; sourceTree = "<group>"; };
 		E75FC195156657270056E326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E75FC197156657270056E326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E75FC199156657270056E326 /* Age12cm0120-Prefix.pch */ = {isa = PBXFileReference; path = "Age12cm0120-Prefix.pch"; sourceTree = "<group>"; };
-		E75FC19A156657270056E326 /* AgeAppDelegate.h */ = {isa = PBXFileReference; path = AgeAppDelegate.h; sourceTree = "<group>"; };
+		E75FC199156657270056E326 /* Age12cm0120-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Age12cm0120-Prefix.pch"; sourceTree = "<group>"; };
+		E75FC19A156657270056E326 /* AgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgeAppDelegate.h; sourceTree = "<group>"; };
 		E75FC19B156657270056E326 /* AgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeAppDelegate.m; sourceTree = "<group>"; };
-		E75FC19D156657270056E326 /* AgeViewController.h */ = {isa = PBXFileReference; path = AgeViewController.h; sourceTree = "<group>"; };
+		E75FC19D156657270056E326 /* AgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgeViewController.h; sourceTree = "<group>"; };
 		E75FC19E156657270056E326 /* AgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeViewController.m; sourceTree = "<group>"; };
 		E75FC1A1156657270056E326 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AgeViewController.xib; sourceTree = "<group>"; };
+		E75FC1CC15666C730056E326 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E75FC1CD15666C730056E326 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		E75FC17C156657270056E326 = {
 			isa = PBXGroup;
 			children = (
+				E75FC1CB15666C730056E326 /* Images */,
 				E75FC191156657270056E326 /* Age12cm0120 */,
 				E75FC18A156657270056E326 /* Frameworks */,
 				E75FC188156657270056E326 /* Products */,
@@ -96,6 +101,15 @@
 				E75FC199156657270056E326 /* Age12cm0120-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75FC1CB15666C730056E326 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E75FC1CC15666C730056E326 /* Default.png */,
+				E75FC1CD15666C730056E326 /* Icon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,8 @@
 			files = (
 				E75FC196156657270056E326 /* InfoPlist.strings in Resources */,
 				E75FC1A2156657270056E326 /* AgeViewController.xib in Resources */,
+				E75FC1CE15666C730056E326 /* Default.png in Resources */,
+				E75FC1CF15666C730056E326 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				E75FC1A7156657270056E326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

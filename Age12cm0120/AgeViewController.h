@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AgeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIDatePicker *birthdayPicker;
+@property (strong, nonatomic) IBOutlet UILabel *ageLable;
+@property (strong, nonatomic) IBOutlet UILabel *resultLable;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *unitControl;
+- (IBAction)calc;
 
 @end
